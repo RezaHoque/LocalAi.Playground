@@ -11,8 +11,6 @@ The project itself does not require a specific GPU.
 
 ## Requirements
 
-You'll need:
-
 - [.NET SDK](https://dotnet.microsoft.com/download)
 - [Ollama](https://ollama.com/)
 - At least one Ollama model
@@ -39,7 +37,7 @@ For example:
 ollama pull qwen3:8b
 ```
 
-You can also use another model supported by Ollama.
+Any model supported by Ollama should be ok.
 
 For example:
 
@@ -47,7 +45,7 @@ For example:
 ollama pull llama3.1:8b
 ```
 
-See your installed models with:
+See installed models with:
 
 ```bash
 ollama list
@@ -66,7 +64,7 @@ cd LocalAi.Playground
 dotnet run
 ```
 
-The application queries Ollama and displays the models installed on your machine:
+The application queries Ollama and displays the models installed on the machine:
 
 ```text
 Local AI
